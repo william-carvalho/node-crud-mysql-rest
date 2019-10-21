@@ -13,7 +13,7 @@
     node app.js
 then
 
-    curl -d '{"id":"1", "title":"Black Phanter", "content":"wakanda"}' -H "Content-Type: application/json" -X POST http://localhost:3000/posts
+    curl -d '{"id":"1", "title":"Black Panther", "content":"wakanda"}' -H "Content-Type: application/json" -X POST http://localhost:3000/posts
     
 # Performances with [wrk](https://github.com/wg/wrk)
 
